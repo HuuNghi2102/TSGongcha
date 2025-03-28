@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5eee9;
+    padding: 0;
+    margin: auto;
+    font-family: "Open Sans";
+}
+.menu {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+#header {
+    background-color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+#logo {
+    padding: 12px;
+}
+#logo img {
+    display: inline-block;
+    max-width: 60px;
+    margin: 10 0px;
+}
+#main-menu {
+    display: flex;
+    line-height: 90px;
+    list-style: none;
+    font-family: "Myriad Pro",PTSansCaptionRegular, arial, helvetica, sans-serif;
+    margin: 0;
+    padding: 0 16px;
+}
+#main-menu li a:hover {
+    text-decoration: underline;
+}
+#main-menu li{
+    position: relative;
+}
+#main-menu .sub-menu a:hover{
+    color: red;
+    text-decoration: none;
+}
+#thucdon .sub-menu {
+    line-height: 50px;
+    border-bottom: 3px solid #b81f32;
+}
+#tintuc .sub-menu  {
+    line-height: 40px;
+    border-bottom: 3px solid #b81f32;
+}
+#tintuc .sub-menu {
+    min-width: 254px;
+}
+#tintuc .sub-menu li a{
+    text-align: center;
+}
+
+#main-menu > li{
+    padding: 0 10px;
+}
+
+#main-menu li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+
+}
+#main-menu ul.sub-menu{
+    list-style: none;
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 5px;
+    width: 200px;
+    box-shadow: 0px 0px 15px 0px #ffffff;
+}
+#main-menu ul.sub-menu a{
+    padding: 0px 10px;
+    text-align: center;
+}
+#nav li a:hover{
+    text-decoration: underline;
+}
+
+#main-menu #thucdon .sub-menu{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+}
+
+#main-menu #thucdon:hover .sub-menu{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.2s;
+}
+#main-menu #tintuc .sub-menu {
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+}
+#main-menu #tintuc:hover .sub-menu{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.2s;
+}
+.img .backgroud{
+    background-size: cover;
+    background-position: center;
+    min-height: 345px;
+    background-image: url(https://gongcha.com.vn/wp-content/uploads/2020/08/banner-menu-1900-x-335.jpg);
+}
+.img .backgroud .container1 {
+    margin-top: -16px;
+    padding: 115px;
+    font-size: 15px;
+}
+.img .backgroud .title h2{
+    font-size: 40px;
+    font-family: "Open Sans";
+} 
+.img .backgroud .content p{
+    font-family: "Open Sans";
+}
+.img .Menuhientai p{
+    position: absolute;
+    background-color: #b81f32;
+    padding: 10px 30px;
+    top: 415px;
+    left: 148px;
+    color: white;
+    font-family: "Open Sans";
+}
+.chinh{
+    padding-bottom: 50px;
+    margin-top: 70px;
+    padding: 0;
+    margin: 0 auto;
+    width: 80%;
+    border-top: 2px solid #111;
+    border-bottom: 1px solid #ddd;
+}
+.chinh .menu-con ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.chinh .menu-con ul li{
+    list-style: none;
+    margin-right: 80px;
+    font-size: 18px;
+}
+.chinh .menu-con ul li a{
+    font-family: "Open Sans";
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #111;
+}
+.chinh .menu-con .menu-con-nho li a:hover {
+    color: #b81f32;
+    text-decoration: underline;
+}
+.title .product-beverage{
+    margin-top: 20px;
+    text-align: center;
+    background-color: #e5ded8;;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 15px;
+
+}
+.title .product-beverage h2 {
+    font-weight: 400;
+}
+.title .img-beverage {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 20px 40px;
+    text-align: center;
+}
+.title .img-beverage .drinks {
+    width: 33.33333333%;
+}
+.title .img-beverage img {
+    width: 250px;
+    cursor: pointer;
+    transition: 1s;
+    transition: all 0.2s ease-in-out;
+}
+.title .img-beverage img:hover {
+    transform: scale(1.1);
+}
+.title .img-beverage p{
+    color: #b81f32;
+    font-size: 20px;
+    cursor: pointer;
+}
+.title .img-beverage p:hover {
+    color: #5a0101;
+}
+.footer-left {
+    display: flex;
+}
+.footer-left .footer-trai {
+    display: flex;
+    background-color: rgb(73, 69, 69);
+    padding: 58px 270px;
+    height: 170px;
+    width: 500px;
+}
+.footer-left .footer-phai .thanh-menu ul{
+    display: flex;
+    
+}
+.footer-left .footer-trai .footer-trainho img{
+    height: 55px;
+}
+ .footer-left .footer-trai .footer-trainho p{
+    font-size: 12px;
+    color: white;
+}
+.footer-left .footer-phai .thanh-menu li {
+    font-family: "Open Sans";
+    list-style: none;
+    margin: 0 15px;
+    height: 18px;
+} 
+.footer-left .footer-phai .thanh-menu li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-left .footer-phai .thanh-menu ul{
+    padding: 55px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+}
+.footer-left .footer-phai .gmail p{
+    padding-left: 53px;
+    font-size: 20px;
+    font-family: "Open Sans";
+}
+.footer-left .footer-phai .thanh-menu li:hover a {
+    color: #b81f32;
+}
+.footer-left .footer-phai .thanh-menu .gmail {
+    color: #b81f32;
+
+}
+.footer-left .footer-phai .thanh-menu .gmail:hover p{
+    color: #850010;
+}

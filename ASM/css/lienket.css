@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: auto;
+    font-family: "Open Sans";
+}
+.container {
+    max-width: 1190px;
+    margin: 0px auto;
+}
+#header {
+    background-color: white;
+    /* height: 90px; */
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    z-index: 1;
+
+}
+nav {
+    display: flex;
+    justify-content: space;
+    justify-items: center;
+}
+#logo {
+    padding: 12px;
+}
+#logo img {
+    display: inline-block;
+    max-width: 60px;
+    margin: 10 0px;
+}
+#main-menu {
+    display: flex;
+    line-height: 90px;
+    list-style: none;
+    font-family: "Myriad Pro",PTSansCaptionRegular, arial, helvetica, sans-serif;
+    margin: 0;
+    padding: 0 16px;
+}
+#main-menu li a:hover {
+    text-decoration: underline;
+}
+#main-menu li{
+    position: relative;
+}
+#main-menu .sub-menu a:hover{
+    color: red;
+    text-decoration: none;
+}
+#thucdon .sub-menu {
+    line-height: 50px;
+    border-bottom: 3px solid #b81f32;
+}
+#tintuc .sub-menu  {
+    line-height: 40px;
+    border-bottom: 3px solid #b81f32;
+}
+#tintuc .sub-menu {
+    min-width: 254px;
+}
+#tintuc .sub-menu li a{
+    text-align: center;
+}
+
+#main-menu > li{
+    padding: 0 10px;
+}
+
+#main-menu li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+
+}
+#main-menu ul.sub-menu{
+    list-style: none;
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 5px;
+    width: 200px;
+    box-shadow: 0px 0px 15px 0px #ffffff;
+}
+#main-menu ul.sub-menu a{
+    padding: 0px 10px;
+    text-align: center;
+}
+#nav li a:hover{
+    text-decoration: underline;
+}
+
+#main-menu #thucdon .sub-menu{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+}
+
+#main-menu #thucdon:hover .sub-menu{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.2s;
+}
+#main-menu #tintuc .sub-menu {
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+}
+#main-menu #tintuc:hover .sub-menu{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.2s;
+}
+.img .backgroud{
+    background-size: cover;
+    background-position: center;
+    min-height: 345px;
+    background-image: url(https://gongcha.com.vn/wp-content/uploads/2018/03/banner-lienhe.jpg);
+}
+.img .backgroud .container1 {
+    margin-top: -16px;
+    padding: 115px;
+    font-size: 15px;
+}
+.img .backgroud .title h2{
+    font-size: 40px;
+    font-family: "Open Sans";
+} 
+.img .backgroud .content p{
+    font-family: "Open Sans";
+}
+.img .Menuhientai p{
+    position: absolute;
+    background-color: #b81f32;
+    padding: 10px 30px;
+    top: 415px;
+    left: 150px;
+    color: white;
+    font-family: "Open Sans";
+}
+section {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.container .content {
+    padding-top: 49px;
+    font-size: 14px;
+}
+.form .form-top {
+    display: flex;
+    margin-top: 20px;   
+}
+.form .form-top .name input{
+    width: 570px;
+    height: 40px;
+    margin-right: 25px;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+}
+.form .form-top .email input{
+    width: 580px;
+    height: 40px;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+}
+.form .form-bottom {
+    display: flex;
+    margin-top: 20px;
+}
+.form .form-bottom .sdt input{
+    width: 570px;
+    height: 40px;
+    margin-right: 27px;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+}
+.form .form-bottom .chon {
+    width: 260px;
+    height: 40px;
+    border-top-color: white;
+    border-right-color: white;
+    border-left-color: white;
+    margin-right: 35px;
+}
+.form .form-bottom .cuahang {
+    width: 24%;
+    height: 40px;
+    border-top-color: white;
+    border-right-color: white;
+    border-left-color: white;
+}
+.form .feedback {
+    margin: 12px 0 12px 0;
+}
+.form .feedback .ph {
+    margin: 12px 0;
+}
+.form .content-title h3 {
+    font-size: 23px;
+}
+hr {
+    margin: 15px 0;
+}
+button {
+    float: inline-end;
+    height: 50px;
+    width: 180px;
+    background-color: #d50505;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #b81f32;
+}
+footer {
+    padding-top: 90px;
+}
+.footer-left {
+    display: flex;
+}
+.footer-left .footer-trai {
+    display: flex;
+    background-color: rgb(73, 69, 69);
+    padding: 58px 270px;
+    height: 170px;
+    width: 500px;
+}
+.footer-left .footer-phai .thanh-menu ul{
+    display: flex;
+    
+}
+.footer-left .footer-trai .footer-trainho img{
+    height: 55px;
+}
+ .footer-left .footer-trai .footer-trainho p{
+    font-size: 12px;
+    color: white;
+}
+.footer-left .footer-phai .thanh-menu li {
+    font-family: "Open Sans";
+    list-style: none;
+    margin: 0 15px;
+    height: 18px;
+} 
+.footer-left .footer-phai .thanh-menu li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-left .footer-phai .thanh-menu ul{
+    padding: 55px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+}
+.footer-left .footer-phai .gmail p{
+    padding-left: 53px;
+    font-size: 20px;
+    font-family: "Open Sans";
+}
+.footer-left .footer-phai .thanh-menu li:hover a {
+    color: #b81f32;
+}
+.footer-left .footer-phai .thanh-menu .gmail {
+    color: #b81f32;
+
+}
+.footer-left .footer-phai .thanh-menu .gmail:hover p{
+    color: #850010;
+}

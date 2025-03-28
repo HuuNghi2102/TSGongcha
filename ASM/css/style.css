@@ -1,0 +1,394 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+#header {
+    background-color: white;
+    height: 90px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+#logo {
+    padding: 12px;
+}
+#logo img {
+    display: inline-block;
+    max-width: 60px;
+    margin: 10 0px;
+}
+.main-menu {
+    display: flex;
+    line-height: 90px;
+    font-family: "Myriad Pro",PTSansCaptionRegular, arial, helvetica, sans-serif;
+    margin: 0;
+    padding: 0 16px;
+}
+.main-menu li a:hover {
+    text-decoration: underline;
+}
+.main-menu li{
+    position: relative;
+    list-style: none;
+    margin: 0 10px;
+}
+.main-menu .sub-menu a:hover{
+    color: red;
+    text-decoration: none;
+}
+#thucdon .sub-menu {
+    line-height: 50px;
+    border-bottom: 3px solid #b81f32;
+}
+#tintuc .sub-menu  {
+    line-height: 40px;
+    border-bottom: 3px solid #b81f32;
+}
+#tintuc .sub-menu {
+    min-width: 254px;
+}
+#tintuc .sub-menu li a{
+    text-align: center;
+}
+
+
+.main-menu li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+
+
+}
+.main-menu ul.sub-menu{
+    list-style: none;
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 5px;
+    width: 200px;
+    box-shadow: 0px 0px 15px 0px #ffffff;
+}
+.main-menu ul.sub-menu a{
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.anh{
+    margin-top: 90px;
+    background-image: url(https://gongcha.com.vn/wp-content/uploads/2024/01/cover-web-dâu-scaled.jpg);
+    background-size: cover;
+}
+
+.anh img{
+    width: 100%;
+}
+.logo img {
+    display: inline-block;
+    width: 75px;
+    height: 90px;
+    margin: 10 0px;
+    /* float: left; */
+    padding: 12px;
+}
+#nav li a:hover{
+    text-decoration: underline;
+}
+
+.main-menu #thucdon .sub-menu{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+}
+
+.main-menu #thucdon:hover .sub-menu{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.2s;
+}
+.main-menu #tintuc .sub-menu {
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+}
+.main-menu #tintuc:hover .sub-menu{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.2s;
+}
+.banner-img {
+    width: 100%;
+    margin-top: 105px;
+}
+.banner-img img {
+    width: 100%;
+    height: auto;
+}
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 0;
+}
+.wrapp{
+    display: flex;
+}
+.left-item {
+    display: flex;
+    margin-left: 115px;
+}
+.right-item {
+    background-color: #8080800f;
+    padding: 30px;
+    width: 440px;
+}
+.right-item .right-item-title h3{
+    font-size: 24px;
+    font-family: "Open Sans";
+}
+.right-item .right-item-title p{
+    font-size: 16px;
+}
+.right-item-choose .right-item-choose-provice .chon {
+    width: 100%;
+    padding: 6px 12px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+.right-item-choose .search:hover .search-store {
+    background-color: #8c1826;
+    cursor: pointer;;
+
+}
+.right-item-choose .search .search-store{
+    width: 100%;
+    padding: 6px 12px;
+    height: 60px;
+    background-color: rgba(198, 11, 11, 0.781);
+    text-transform: uppercase;
+    color:#fff; 
+    font-weight: 550;
+}
+.wrapp-img{
+    display: flex;
+    margin-left: 115px;
+}
+.wrapp-img .kem {
+    width: 23.66%;
+    height: 370px;
+}
+.wrapp-img .kem img{
+    width: 100%;
+    height: 100%;
+}
+.wrapp-img .anhh{
+    width: 67.5%;
+    height: 370px;
+}
+
+.wrapp-img .anhh img{
+    width: 100%;
+    height: 100%;
+}
+.title-infor{
+    display: flex;
+    margin-left: 8%;
+}
+.title-infor .title-voucher{
+    width: 313px;
+    padding: 10px;
+}
+.title-infor .title-voucher h3{
+    font-size: 24px;
+    color: #8c1826;
+    padding: 10px;
+}
+.title-infor .title-voucher strong{
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px;
+}
+.title-infor .title-voucher p{
+    font-size: 16px;
+    color: #333;
+}
+.title-infor .wrapp-title-img {
+    display: flex;
+}
+.title-infor .wrapp-title-img .title-img{
+    width: 447px;
+    height: 280px;
+}
+.title-infor .wrapp-title-img .title-img img{
+    width: 100%;
+    height: 100%;
+}
+.banner-tea {
+    position: relative;
+}
+.banner-tea img{
+    width: 100%;
+}
+.banner-tea  .title-tea h3{
+    position: absolute;
+    text-align: center;
+    top: 41%;
+    left: 41%;
+    color: #8c1826;
+}
+.banner-tea  .title-tea button{
+    position: absolute;
+    top: 60%;
+    left: 46%;
+    width: 130px;
+    height: 35px;
+    border: 2px solid brown;
+}
+.banner-tea  .title-tea button:hover{
+    color: #ff07241f;
+    background-color: #ba8d9255;
+}
+.banner-tea  .title-tea button a{
+    text-decoration: none;
+    color: rgb(174, 9, 9);
+}
+.bao {
+    display: flex;
+    background-color: rgb(241, 231, 224);
+}
+.bao-phai .biquyet {
+    font-size: 16px;
+    padding: 29px;
+    /* margin-left: 123px; */
+    font-family: "Open sans" ;
+    font-weight: 100px;
+}
+.bao-phai .biquyet h3{
+    font-weight: 200;
+    margin-left: 60px;
+}
+.bao-phai img {
+    width: 300px;
+}
+/* .bao-trai .chiem li a{
+    text-align: center;
+} */
+.chiem {
+    justify-content: space-between;
+    justify-items: center;
+}
+.bao-trai .chiem {
+    display: flex;
+    list-style: none;
+    margin: 35px 80px;
+}
+.bao-trai .chiem .chiem-small {
+    padding-left: 3px;
+    padding-right: 15px;
+}
+.bao-trai .chiem .chiem-small{
+    text-decoration: none;
+    color: black;
+    font-family: "Open Sans";
+    font-size: 14px;
+}
+.bao-trai .chiem .chiem-small:hover{
+    text-decoration: underline;
+    color: #8c1826;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.bao-trai .title-water {
+    width: 680px;
+    margin-left: 130px;
+}
+.bao-trai .title-water  li{
+    list-style: none;
+}
+.bao-trai .title-water  li h3{
+    color: #c02d3e;
+    margin-bottom: 10px;
+}
+.bao-trai .title-water button{
+    background-color: rgb(241, 231, 224);
+    border: none;
+    color: rgb(164, 42, 42);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;    
+    border: 1px solid rgb(174, 9, 9);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.bao-trai .title-water button:hover{
+    color: rgb(136, 6, 6);
+    transition: 0.5s;
+}
+.footer-left {
+    display: flex;
+}
+.footer-left .footer-trai {
+    display: flex;
+    background-color: rgb(73, 69, 69);
+    padding: 58px 254px;
+    height: 170px;
+    width: 500px;
+}
+.footer-left .footer-phai .thanh-menu ul{
+    display: flex;
+    
+}
+.footer-left .footer-trai .footer-trainho img{
+    height: 55px;
+}
+ .footer-left .footer-trai .footer-trainho p{
+    font-size: 12px;
+    color: white;
+}
+.footer-left .footer-phai .thanh-menu li {
+    font-family: "Open Sans";
+    list-style: none;
+    margin: 0 15px;
+    height: 18px;
+} 
+.footer-left .footer-phai .thanh-menu li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-left .footer-phai .thanh-menu ul{
+    padding: 55px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+}
+.footer-left .footer-phai .gmail p{
+    padding-left: 53px;
+    font-size: 20px;
+    font-family: "Open Sans";
+}
+.footer-left .footer-phai .thanh-menu li:hover a {
+    color: #b81f32;
+}
+.footer-left .footer-phai .thanh-menu .gmail {
+    color: #b81f32;
+
+}
+.footer-left .footer-phai .thanh-menu .gmail:hover p{
+    color: #850010;
+}

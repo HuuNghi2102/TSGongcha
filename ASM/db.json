@@ -1,0 +1,125 @@
+{
+  "users": [
+    {
+      "id": "83bf",
+      "firtName": "Trần Hữu",
+      "lastName": "Nghị",
+      "email": "huunghitc1@gmail.com",
+      "password": "12312"
+    },
+    {
+      "id": "c0e6",
+      "firtName": "Trần Hữu",
+      "lastName": "Nghị",
+      "email": "huunghitc123@gmail.com",
+      "password": "21022005"
+    },
+    {
+      "id": "0bf3",
+      "firtName": "Trần Hữu",
+      "lastName": "Nghị",
+      "email": "huunghitc12@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "bdd9",
+      "firtName": "Thơ",
+      "lastName": "thầy",
+      "email": "thaytho@gmail.com",
+      "password": "123"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "img": "sanpham.png",
+      "name": "Kem Trà Sữa & Trân Châu Đen",
+      "price": 25000,
+      "category": 1
+    },
+    {
+      "id": "2",
+      "img": "sanpham2.png",
+      "name": "Kem Trà Sữa",
+      "price": 25000,
+      "category": 1
+    },
+    {
+      "id": "3",
+      "img": "sanpham3.png",
+      "name": " Trà Alisan Trái Cây",
+      "price": 25000,
+      "category": 2
+    },
+    {
+      "id": "4",
+      "img": "sanpham4.png",
+      "name": "Chanh Ai-yu và Trân Châu Trắng",
+      "price": 25000,
+      "category": 2
+    },
+    {
+      "id": "5",
+      "img": "sanpham5.png",
+      "name": " Đào Hồng Mận Hạt É",
+      "price": 25000,
+      "category": 2
+    },
+    {
+      "id": "6",
+      "img": "sanpham6.png",
+      "name": "Trà Oolong Vải",
+      "price": 25000,
+      "category": 2
+    },
+    {
+      "id": "7",
+      "img": "sanpham7.png",
+      "name": "Trà Alisan Vải",
+      "price": 25000,
+      "category": 2
+    },
+    {
+      "id": "8",
+      "img": "sanpham8.png",
+      "name": "Trà Đen Đào",
+      "price": 25000,
+      "category": 2
+    },
+    {
+      "id": "9",
+      "img": "sanpham9.png",
+      "name": "Okinawa Oreo Cream Milk Tea",
+      "price": 25000,
+      "category": 3
+    },
+    {
+      "id": "10",
+      "img": "sanpham10.png",
+      "name": "Okinawa Milk Foam Smoothie",
+      "price": 25000,
+      "category": 3
+    },
+    {
+      "id": "11",
+      "img": "sanpham11.png",
+      "name": "Trà Sữa Okinawa",
+      "price": 30000,
+      "category": 3
+    },
+    {
+      "id": "12",
+      "img": "sanpham12.png",
+      "name": "Sữa Tươi Okinawa",
+      "price": 30000,
+      "category": 3
+    },
+    {
+      "id": "13",
+      "img": "sanpham13.png",
+      "name": " Dâu Latte",
+      "price": 40000,
+      "category": 4
+    }
+  ]
+}

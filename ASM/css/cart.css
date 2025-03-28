@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open sans";
+}
+section {
+    
+    font-weight: 400;
+}
+.menu {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+#header {
+    background-color: white;
+    height: 90px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+#logo {
+    padding: 12px;
+}
+#logo img {
+    display: inline-block;
+    max-width: 60px;
+    margin: 10 0px;
+}
+.main-menu {
+    display: flex;
+    line-height: 90px;
+    font-family: "Myriad Pro",PTSansCaptionRegular, arial, helvetica, sans-serif;
+    margin: 0;
+    padding: 0 16px;
+}
+.main-menu li a:hover {
+    text-decoration: underline;
+}
+.main-menu li{
+    position: relative;
+    list-style: none;
+    margin: 0 10px;
+}
+.main-menu .sub-menu a:hover{
+    color: red;
+    text-decoration: none;
+}
+#thucdon .sub-menu {
+    line-height: 50px;
+    border-bottom: 3px solid #b81f32;
+}
+#tintuc .sub-menu  {
+    line-height: 40px;
+    border-bottom: 3px solid #b81f32;
+}
+#tintuc .sub-menu {
+    min-width: 254px;
+}
+#tintuc .sub-menu li a{
+    text-align: center;
+}
+
+
+.main-menu li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+
+
+}
+.main-menu ul.sub-menu{
+    list-style: none;
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 5px;
+    width: 200px;
+    box-shadow: 0px 0px 15px 0px #ffffff;
+}
+.main-menu ul.sub-menu a{
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.anh{
+    margin-top: 90px;
+    background-image: url(https://gongcha.com.vn/wp-content/uploads/2024/01/cover-web-dâu-scaled.jpg);
+    background-size: cover;
+}
+
+.anh img{
+    width: 100%;
+}
+.logo img {
+    display: inline-block;
+    width: 75px;
+    height: 90px;
+    margin: 10 0px;
+    /* float: left; */
+    padding: 12px;
+}
+#nav li a:hover{
+    text-decoration: underline;
+}
+
+.main-menu #thucdon .sub-menu{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+}
+
+.main-menu #thucdon:hover .sub-menu{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.2s;
+}
+.main-menu #tintuc .sub-menu {
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+}
+.main-menu #tintuc:hover .sub-menu{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.2s;
+}
+.img .backgroud{
+    background-size: cover;
+    background-position: center;
+    margin-top: 90px;
+    background-image: url(https://gongcha.com.vn/wp-content/uploads/2018/01/bg-qua-trinh-phat-trien.jpg);
+}
+.img .backgroud .container1 {
+    margin-top: -16px;
+    padding: 115px;
+    font-size: 15px;
+}
+.img .backgroud .title h2{
+    font-size: 40px;
+    font-family: "Open Sans";
+} 
+.img .backgroud .content p{
+    font-family: "Open Sans";
+}
+.img .Menuhientai p{
+    position: absolute;
+    background-color: #b81f32;
+    padding: 10px 30px;
+    top: 375px;
+    left: 150px;
+    color: white;
+    font-family: "Open Sans";
+}
+
+.container{
+    width: 1440px;
+    margin: 20px auto;
+}
+.container .title-cart h3{
+    text-align: center;
+    background-color: white;
+    margin-bottom: 10px;
+    /* box-shadow:  0.3px -0.5px 3px rgb(63, 63, 63); */
+}
+.container table {
+    /* width: 100%; */
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.container table td {
+    width: 225px;
+    height: 100px;
+    text-align: center;
+}
+.container button {
+    background-color: #b81f32;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+.container button:hover{
+    background-color: #9f0e1f;
+}
+.container button a{
+    text-decoration: none;
+    color: white;
+}
+.footer-left {
+    display: flex;
+}
+.footer-left .footer-trai {
+    display: flex;
+    background-color: rgb(73, 69, 69);
+    padding: 58px 255px;
+    height: 170px;
+    width: 500px;
+}
+.footer-left .footer-phai .thanh-menu ul{
+    display: flex;
+    
+}
+.footer-left .footer-trai .footer-trainho img{
+    height: 55px;
+}
+.footer-left .footer-trai .footer-trainho p{
+    font-size: 12px;
+    color: white;
+}
+.footer-left .footer-phai .thanh-menu li {
+    font-family: "Open Sans";
+    list-style: none;
+    margin: 0 15px;
+    height: 18px;
+} 
+.footer-left .footer-phai .thanh-menu li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-left .footer-phai .thanh-menu ul{
+    padding: 55px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+}
+.footer-left .footer-phai .gmail p{
+    padding-left: 53px;
+    font-size: 20px;
+    font-family: "Open Sans";
+}
+.footer-left .footer-phai .thanh-menu li:hover a {
+    color: #b81f32;
+}
+.footer-left .footer-phai .thanh-menu .gmail {
+    color: #b81f32;
+
+}
+.footer-left .footer-phai .thanh-menu .gmail:hover p{
+    color: #850010;
+}
